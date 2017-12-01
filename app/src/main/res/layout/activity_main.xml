@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/txt_password"
+        android:layout_alignLeft="@+id/txt_password"
+        android:layout_alignRight="@+id/txt_password"
+        android:layout_alignStart="@+id/txt_password"
+        android:layout_below="@+id/txt_password"
+        android:text="@string/signIn" />
+
+    <Button
+        android:id="@+id/btn_signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_signIn"
+        android:layout_alignLeft="@+id/btn_signIn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_signIn"
+        android:layout_alignStart="@+id/btn_signIn"
+        android:layout_marginBottom="77dp"
+        android:text="@string/signUp"
+        android:onClick="signUp_activity"
+        />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_email"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword" />
+</RelativeLayout>

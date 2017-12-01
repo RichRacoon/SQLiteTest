@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLite Test</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="signIn">SIGN IN</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="userName">User Name</string>
+    <string name="confirmPassword">Confirm Password</string>
+
+
+</resources>

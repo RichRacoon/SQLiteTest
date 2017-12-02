@@ -12,7 +12,9 @@
         android:layout_alignRight="@+id/txt_password"
         android:layout_alignStart="@+id/txt_password"
         android:layout_below="@+id/txt_password"
-        android:text="@string/signIn" />
+        android:text="@string/signIn"
+        android:onClick="signIn_activity"
+        />
 
     <Button
         android:id="@+id/btn_signUp"
